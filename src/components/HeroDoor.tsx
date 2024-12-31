@@ -46,12 +46,12 @@ export default function HeroDoor() {
             <h2 className="text-center mt-[60px] bg-gradient-to-r from-yellow-400 to-orange-500 text-transparent bg-clip-text text-[20px] mb-2">
               #dont_miss_out
             </h2>
-            <h1 className="text-center text-[#0D1D0E] leading-[85%] text-[56px] mt-[35px] font-bold">
+            <h1 className="text-center text-[#0D1D0E] leading-[85%] hero-title text-[56px] mt-[35px] font-bold">
               <span>Buy</span> <br />
               <span>Now Or</span> <br />
               <span>Never</span>
             </h1>
-            <p className="text-[16px] text-black font-medium font-sans my-3 px-[6px] text-center mx-auto whitespace-normal">
+            <p className="text-[16px] pera-details text-black font-medium font-sans my-3 px-[6px] text-center mx-auto whitespace-normal">
               <span className="font-bold bg-[#5c1d64] mr-1 inline-block animate-pulse text-white py-[2px] px-[4px] ">
                 মাথা নষ্ট করা
               </span>

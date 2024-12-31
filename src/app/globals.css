@@ -101,3 +101,24 @@ body {
   box-shadow: -8px 8px 25px 0px white ;
   opacity: 0.25;
 }
+
+@media screen and (max-width: 402px) {
+  .pera-details{
+    font-size: 15px;
+  }
+  .hero-title{
+    font-size: 50px;
+  }
+  
+}
+
+@media screen and (max-width: 379px) {
+  .pera-details{
+    font-size: 14px;
+  }
+
+  .hero-title{
+    font-size: 47px;
+  }
+  
+}
