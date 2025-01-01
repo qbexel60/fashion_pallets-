@@ -31,7 +31,7 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${yourFont.variable} antialiased bg-[#030507] text-white min-h-screen`}
       >
-        <div className="fixed inset-0 -z-10 h-full w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#B947C7_100%)]"></div>
+        <div className="fixed inset-0 -z-10 h-full max-md:h-[100vh] w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#B947C7_100%)]"></div>
         <Logo />
         <AnimatedNavbar />
         {children}

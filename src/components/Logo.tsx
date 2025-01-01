@@ -8,6 +8,7 @@ export default function Logo() {
       <Link href={`/`}>
         <Image
           src="/logo/fashionpallet.webp"
+          className='cursor-pointer w-[100px] h-[50px]'
           alt="Logo"
           width={100}
           height={100}
