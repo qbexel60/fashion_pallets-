@@ -19,7 +19,7 @@ export default function AnimatedNavbar() {
       {/* Toggle Button */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-4 right-4 z-20 p-2 bg-gradient-to-l from-[#B947C7] to-[#8632A7] text-primary-foreground rounded-full shadow-lg"
+        className="fixed top-4 right-4 z-[10000] p-2 bg-gradient-to-l from-[#B947C7] to-[#8632A7] text-primary-foreground rounded-full shadow-lg"
         aria-label={isOpen ? 'Close menu' : 'Open menu'}
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -32,7 +32,7 @@ export default function AnimatedNavbar() {
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.3 }}
-          className="fixed inset-0 bg-black/50 z-30"
+          className="fixed inset-0 bg-black/50 z-[10000]"
           onClick={() => setIsOpen(false)}
         />
       )}
@@ -42,7 +42,7 @@ export default function AnimatedNavbar() {
         initial={{ x: '-100%' }}
         animate={{ x: isOpen ? 0 : '-100%' }}
         transition={{ type: 'spring', stiffness: 300, damping: 30 }}
-        className="fixed top-0 left-0 bottom-0 w-64  text-white bg-gradient-to-b from-[#B947C7] to-[#8632A7] z-40 p-4 shadow-lg"
+        className="fixed top-0 left-0 bottom-0 w-64  text-white bg-gradient-to-b from-[#B947C7] to-[#8632A7] z-[10000] p-4 shadow-lg"
       >
         <ul className="space-y-4 mt-16">
           {navItems.map((item, index) => (

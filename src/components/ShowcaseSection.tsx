@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
+import { IoIosArrowDown } from 'react-icons/io';
 
 export default function ShowcaseSection({
   title,
@@ -19,10 +20,11 @@ export default function ShowcaseSection({
   const imagesLengthShorten = images?.slice(0, 3);
   return (
     <div className="mb-10">
-      <h3 className="text-xl border-[#B947C7] border-2 py-2 px-4 inline-block font-medium rounded-full mb-5">
-        {title}
+      <h3 className="text-xl border-[#B947C7] border-2 py-2 px-4 inline-flex items-center gap-2 font-medium rounded-full mb-5">
+        <span>{title}</span>
+        <IoIosArrowDown className='pt-[1px]' />
       </h3>
-      <p className="text-[16px]">{description}</p>
+      <p className="text-[19px]">{description}</p>
       <div className="grid grid-cols-3 gap-4 mt-5">
         {imagesLengthShorten?.map((image, index) => (
           <RenderImage key={index} image={image} section={section} />

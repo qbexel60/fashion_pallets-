@@ -20,11 +20,11 @@ export type SectionImage = {
 }
 
 export const sectionImages: {
-  preOrderedimages: PreOrderedimages[];
-  realImages: RealImages[];
+  preOrdered: PreOrderedimages[];
+  real: RealImages[];
   reviews: Reviews[];
 } = {
-  preOrderedimages: [
+  preOrdered: [
     {
       name: 'image1',
       url: 'https://i.imgur.com/aPDEmth.jpeg',
@@ -54,7 +54,7 @@ export const sectionImages: {
       url: 'https://i.imgur.com/zTYXTrf.jpeg',
     },
   ],
-  realImages: [
+  real: [
     {
       name: 'image1',
       url: 'https://i.imgur.com/HAveSTC.jpeg',

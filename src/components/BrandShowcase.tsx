@@ -14,13 +14,13 @@ export default function BrandShowcase() {
           <ShowcaseSection
             title="Pre-Orders"
             description="90+ types of products Pre-Order has taken so far"
-            images={sectionImages.preOrderedimages}
+            images={sectionImages.preOrdered}
             section="preOrdered"
           />
           <ShowcaseSection
             title="Real Pictures"
             description="Real pictures of pre-ordered products after arriving in Bangladesh"
-            images={sectionImages.realImages}
+            images={sectionImages.real}
             section="real"
           />
           <ShowcaseSection
