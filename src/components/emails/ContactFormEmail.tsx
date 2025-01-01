@@ -1,4 +1,3 @@
-// emails/ContactFormEmail.tsx
 import {
   Body,
   Container,
@@ -26,25 +25,32 @@ export const ContactFormEmail = ({
 }: ContactFormEmailProps) => {
   return (
     <Html>
-      <Head />
-      <Preview>New Contact Form Submission from {name}</Preview>
+      <Head>
+        <title>Contact Form Submission</title>
+      </Head>
+      <Preview>New message from {name}</Preview>
       <Body style={main}>
         <Container style={container}>
-          <Heading style={h1}>New Contact Form Submission</Heading>
+          <Section style={header}>
+            <Heading style={h1}>New Contact Form Submission</Heading>
+          </Section>
           <Section style={section}>
-            <Text style={text}>
-              <strong>Name:</strong> {name}
-            </Text>
-            <Text style={text}>
-              <strong>Email:</strong> {email}
-            </Text>
-            <Text style={text}>
-              <strong>Phone:</strong> {phone}
-            </Text>
-            <Text style={text}>
-              <strong>Message:</strong>
-            </Text>
-            <Text style={messageStyle}>{message}</Text>
+            <div style={fieldGroup}>
+              <Text style={label}>From</Text>
+              <Text style={value}>{name}</Text>
+            </div>
+            <div style={fieldGroup}>
+              <Text style={label}>Email</Text>
+              <Text style={value}>{email}</Text>
+            </div>
+            <div style={fieldGroup}>
+              <Text style={label}>Phone</Text>
+              <Text style={value}>{phone}</Text>
+            </div>
+            <div style={messageContainer}>
+              <Text style={label}>Message</Text>
+              <Text style={messageStyle}>{message}</Text>
+            </div>
           </Section>
         </Container>
       </Body>
@@ -53,42 +59,74 @@ export const ContactFormEmail = ({
 };
 
 const main = {
-  backgroundColor: '#f6f9fc',
-  fontFamily: 'Arial, sans-serif',
+  backgroundColor: '#f8fafc',
+  fontFamily:
+    '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
 };
 
 const container = {
   backgroundColor: '#ffffff',
-  margin: '0 auto',
-  padding: '20px 0 48px',
-  marginBottom: '64px',
+  margin: '40px auto',
+  padding: '24px 0',
+  borderRadius: '12px',
+  boxShadow:
+    '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+  maxWidth: '600px',
+};
+
+const header = {
+  borderBottom: '1px solid #e5e7eb',
+  padding: '0 48px 24px',
 };
 
 const section = {
-  padding: '0 48px',
+  padding: '24px 48px 0',
 };
 
 const h1 = {
-  color: '#333',
+  color: '#1a2b4b',
   fontSize: '24px',
-  fontWeight: '600',
-  lineHeight: '40px',
-  margin: '0 0 20px',
+  fontWeight: '700',
+  lineHeight: '32px',
+  margin: '0',
+  textAlign: 'center' as const,
 };
 
-const text = {
-  color: '#333',
+const fieldGroup = {
+  marginBottom: '24px',
+};
+
+const label = {
+  color: '#6b7280',
+  fontSize: '14px',
+  fontWeight: '500',
+  lineHeight: '20px',
+  margin: '0 0 4px',
+  textTransform: 'uppercase' as const,
+  letterSpacing: '0.05em',
+};
+
+const value = {
+  color: '#1f2937',
   fontSize: '16px',
   lineHeight: '24px',
-  margin: '0 0 10px',
+  margin: '0',
+  fontWeight: '500',
+};
+
+const messageContainer = {
+  marginBottom: '32px',
 };
 
 const messageStyle = {
-  ...text,
-  backgroundColor: '#f9f9f9',
-  padding: '12px',
-  borderRadius: '4px',
-  margin: '10px 0 20px',
+  color: '#1f2937',
+  fontSize: '16px',
+  lineHeight: '24px',
+  backgroundColor: '#f9fafb',
+  padding: '16px',
+  borderRadius: '8px',
+  margin: '8px 0 0',
+  whiteSpace: 'pre-wrap' as const,
 };
 
 export default ContactFormEmail;
