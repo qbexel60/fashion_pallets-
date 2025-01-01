@@ -1,5 +1,5 @@
 import AnimatedNavbar from '@/components/AnimatedNavbar';
-import Container from '@/components/Container';
+import BrandShowcase from '@/components/BrandShowcase';
 import HeroDoor from '@/components/HeroDoor';
 
 import Logo from '@/components/Logo';
@@ -10,9 +10,7 @@ export default function page() {
     <div className="">
       <Logo />
       <HeroDoor />
-      <Container>
-      <div></div>
-      </Container>
+      <BrandShowcase />
       <AnimatedNavbar />
     </div>
   );
