@@ -67,7 +67,9 @@ export function ContactUsForm() {
 
   return (
     <Container>
-      <h1 className="text-3xl font-bold mb-5 mt-20">Contact Us</h1>
+      <h1 id="contact-form" className="text-3xl font-bold mb-5 mt-20">
+        Contact Us
+      </h1>
       <p className="text-[20px] font-semibold mb-5 font-sans">
         We are here to help and answer any question you might have. We look
         forward to hearing from you.

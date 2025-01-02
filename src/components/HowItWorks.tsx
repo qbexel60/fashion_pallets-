@@ -16,7 +16,10 @@ export default function HowItWorks() {
 
   return (
     <Container>
-      <div className="mb-20 mt-10 flex flex-col gap-3 font-sans">
+      <div
+        id="howitworks"
+        className="mb-20 mt-10 flex flex-col gap-3 font-sans"
+      >
         <h2 className="text-4xl font-bold">Order Process</h2>
         <h3 className="text-xl font-bold ">
           How Fashion Pallet Bd Pre-Order System Works & Our Business Model
