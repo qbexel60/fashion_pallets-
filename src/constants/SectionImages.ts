@@ -53,7 +53,180 @@ export const sectionImages: {
       name: 'image7',
       url: 'https://i.imgur.com/zTYXTrf.jpeg',
     },
+    {
+      name: 'image8',
+      url: 'https://i.imgur.com/6ba5RVJ.jpeg',
+    },
+    {
+      name: 'image9',
+      url: 'https://i.imgur.com/iQVfRsq.jpeg',
+    },
+    {
+      name: 'image10',
+      url: 'https://i.imgur.com/cEGJvec.jpeg',
+    },
+    {
+      name: 'image11',
+      url: 'https://i.imgur.com/1clsnCA.jpeg',
+    },
+    {
+      name: 'image12',
+      url: 'https://i.imgur.com/1rJaAkc.jpeg',
+    },
+    {
+      name: 'image13',
+      url: 'https://i.imgur.com/ur2rpYB.jpeg',
+    },
+    {
+      name: 'image14',
+      url: 'https://i.imgur.com/1KY6iRa.jpeg',
+    },
+    {
+      name: 'image15',
+      url: 'https://i.imgur.com/Aai270b.jpeg',
+    },
+    {
+      name: 'image16',
+      url: 'https://i.imgur.com/LbpP9S1.jpeg',
+    },
+    {
+      name: 'image17',
+      url: 'https://i.imgur.com/uiWODK3.jpeg',
+    },
+    {
+      name: 'image18',
+      url: 'https://i.imgur.com/CnaRClR.jpeg',
+    },
+    {
+      name: 'image19',
+      url: 'https://i.imgur.com/kFkUyiF.jpeg',
+    },
+    {
+      name: 'image20',
+      url: 'https://i.imgur.com/NfcWcFq.jpeg',
+    },
+    {
+      name: 'image21',
+      url: 'https://i.imgur.com/8l3iyA9.jpeg',
+    },
+    {
+      name: 'image22',
+      url: 'https://i.imgur.com/etSUvVk.jpeg',
+    },
+    {
+      name: 'image23',
+      url: 'https://i.imgur.com/lMj5rho.jpeg',
+    },
+    {
+      name: 'image24',
+      url: 'https://i.imgur.com/oiz3ld2.jpeg',
+    },
+    {
+      name: 'image25',
+      url: 'https://i.imgur.com/LDpvSbj.jpeg',
+    },
+    {
+      name: 'image26',
+      url: 'https://i.imgur.com/RhOnQ8c.jpeg',
+    },
+    {
+      name: 'image27',
+      url: 'https://i.imgur.com/HvuWZn0.jpeg',
+    },
+    {
+      name: 'image28',
+      url: 'https://i.imgur.com/sxdEc6S.jpeg',
+    },
+    {
+      name: 'image29',
+      url: 'https://i.imgur.com/S1Ffcjk.jpeg',
+    },
+    {
+      name: 'image30',
+      url: 'https://i.imgur.com/4NjuBOG.jpeg',
+    },
+    {
+      name: 'image31',
+      url: 'https://i.imgur.com/zPDtG5B.jpeg',
+    },
+    {
+      name: 'image32',
+      url: 'https://i.imgur.com/ZiIsRWk.jpeg',
+    },
+    {
+      name: 'image33',
+      url: 'https://i.imgur.com/bgbh1au.jpeg',
+    },
+    {
+      name: 'image34',
+      url: 'https://i.imgur.com/BNx2JwK.jpeg',
+    },
+    {
+      name: 'image35',
+      url: 'https://i.imgur.com/vwW0b7D.jpeg',
+    },
+    {
+      name: 'image36',
+      url: 'https://i.imgur.com/IB5VkEi.jpeg',
+    },
+    {
+      name: 'image37',
+      url: 'https://i.imgur.com/LKGgeRQ.jpeg',
+    },
+    {
+      name: 'image38',
+      url: 'https://i.imgur.com/Wre1YU8.jpeg',
+    },
+    {
+      name: 'image39',
+      url: 'https://i.imgur.com/fCeViY6.jpeg',
+    },
+    {
+      name: 'image40',
+      url: 'https://i.imgur.com/CHHZBgy.jpeg',
+    },
+    {
+      name: 'image41',
+      url: 'https://i.imgur.com/d4pyYoq.jpeg',
+    },
+    {
+      name: 'image42',
+      url: 'https://i.imgur.com/hrTGjmN.jpeg',
+    },
+    {
+      name: 'image43',
+      url: 'https://i.imgur.com/K5bZYxH.jpeg',
+    },
+    {
+      name: 'image44',
+      url: 'https://i.imgur.com/i0MV3m0.jpeg',
+    },
+    {
+      name: 'image45',
+      url: 'https://i.imgur.com/x7LBtpF.jpeg',
+    },
+    {
+      name: 'image46',
+      url: 'https://i.imgur.com/6dT4XcP.jpeg',
+    },
+    {
+      name: 'image47',
+      url: 'https://i.imgur.com/SInTZXi.jpeg',
+    },
+    {
+      name: 'image48',
+      url: 'https://i.imgur.com/8Pdrmvg.jpeg',
+    },
+    {
+      name: 'image49',
+      url: 'https://i.imgur.com/EZ36fWS.jpeg',
+    },
+    {
+      name: 'image50',
+      url: 'https://i.imgur.com/GLvAOxs.jpeg',
+    }
   ],
+
   real: [
     {
       name: 'image1',
