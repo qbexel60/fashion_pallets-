@@ -701,27 +701,271 @@ export const sectionImages: {
     },
     {
       name: 'image2',
-      url: 'https://i.imgur.com/3KiDFJw.jpeg',
+      url: 'https://i.imgur.com/9sKQ2UB.jpeg',
     },
     {
       name: 'image3',
-      url: 'https://i.imgur.com/tT8LvRT.jpeg',
+      url: 'https://i.imgur.com/JpjQvjC.jpeg',
     },
     {
       name: 'image4',
-      url: 'https://i.imgur.com/nrrdEh5.jpeg',
+      url: 'https://i.imgur.com/rtyV5gV.jpeg',
     },
     {
       name: 'image5',
-      url: 'https://i.imgur.com/RObnb0Z.jpeg',
+      url: 'https://i.imgur.com/thBX5xg.jpeg',
     },
     {
       name: 'image6',
-      url: 'https://i.imgur.com/mF7I3Jv.jpeg',
+      url: 'https://i.imgur.com/D71Y7pT.jpeg',
     },
     {
       name: 'image7',
-      url: 'https://i.imgur.com/g6UCcfD.jpeg',
+      url: 'https://i.imgur.com/ipkGwKA.jpeg',
     },
+    {
+      name: 'image8',
+      url: 'https://i.imgur.com/inWkFdy.jpeg',
+    },
+    {
+      name: 'image9',
+      url: 'https://i.imgur.com/NR8MejZ.jpeg',
+    },
+    {
+      name: 'image10',
+      url: 'https://i.imgur.com/kNRpByT.jpeg',
+    },
+    {
+      name: 'image11',
+      url: 'https://i.imgur.com/i7lt4TS.jpeg',
+    },
+    {
+      name: 'image12',
+      url: 'https://i.imgur.com/4zFBXN8.jpeg',
+    },
+    {
+      name: 'image13',
+      url: 'https://i.imgur.com/bzJXyXh.jpeg',
+    },
+    {
+      name: 'image14',
+      url: 'https://i.imgur.com/CmlmyNs.jpeg',
+    },
+    {
+      name: 'image15',
+      url: 'https://i.imgur.com/pDBjwEH.jpeg',
+    },
+    {
+      name: 'image16',
+      url: 'https://i.imgur.com/w3Kw2Wy.jpeg',
+    },
+    {
+      name: 'image17',
+      url: 'https://i.imgur.com/ARIJjAP.jpeg',
+    },
+    {
+      name: 'image18',
+      url: 'https://i.imgur.com/dNONYf4.jpeg',
+    },
+    {
+      name: 'image19',
+      url: 'https://i.imgur.com/CbMGXXR.jpeg',
+    },
+    {
+      name: 'image20',
+      url: 'https://i.imgur.com/3FrlYlm.jpeg',
+    },
+    {
+      name: 'image21',
+      url: 'https://i.imgur.com/oeP7lbu.jpeg',
+    },
+    {
+      name: 'image22',
+      url: 'https://i.imgur.com/TKZoSjg.jpeg',
+    },
+    {
+      name: 'image23',
+      url: 'https://i.imgur.com/aETqGyn.jpeg',
+    },
+    {
+      name: 'image24',
+      url: 'https://i.imgur.com/fXWErfU.jpeg',
+    },
+    {
+      name: 'image25',
+      url: 'https://i.imgur.com/b7FvA2j.jpeg',
+    },
+    {
+      name: 'image26',
+      url: 'https://i.imgur.com/arBrdRT.jpeg',
+    },
+    {
+      name: 'image27',
+      url: 'https://i.imgur.com/2SLKeUB.jpeg',
+    },
+    {
+      name: 'image28',
+      url: 'https://i.imgur.com/smT1Pd8.jpeg',
+    },
+    {
+      name: 'image29',
+      url: 'https://i.imgur.com/0j6hznT.jpeg',
+    },
+    {
+      name: 'image30',
+      url: 'https://i.imgur.com/5HZOqS0.jpeg',
+    },
+    {
+      name: 'image31',
+      url: 'https://i.imgur.com/PnhScV6.jpeg',
+    },
+    {
+      name: 'image32',
+      url: 'https://i.imgur.com/hMF7Olc.jpeg',
+    },
+    {
+      name: 'image33',
+      url: 'https://i.imgur.com/aAIGb9M.jpeg',
+    },
+    {
+      name: 'image34',
+      url: 'https://i.imgur.com/fJxw8yB.jpeg',
+    },
+    {
+      name: 'image35',
+      url: 'https://i.imgur.com/YGoJZEC.jpeg',
+    },
+    {
+      name: 'image36',
+      url: 'https://i.imgur.com/wtMkjjb.jpeg',
+    },
+    {
+      name: 'image37',
+      url: 'https://i.imgur.com/3cPPlEF.jpeg',
+    },
+    {
+      name: 'image38',
+      url: 'https://i.imgur.com/dpRRw8A.jpeg',
+    },
+    {
+      name: 'image39',
+      url: 'https://i.imgur.com/UjDDGei.jpeg',
+    },
+    {
+      name: 'image40',
+      url: 'https://i.imgur.com/uQLQbRA.jpeg',
+    },
+    {
+      name: 'image41',
+      url: 'https://i.imgur.com/dbFaBFj.jpeg',
+    },
+    {
+      name: 'image42',
+      url: 'https://i.imgur.com/30A5a3V.jpeg',
+    },
+    {
+      name: 'image43',
+      url: 'https://i.imgur.com/PWG3f6h.jpeg',
+    },
+    {
+      name: 'image44',
+      url: 'https://i.imgur.com/KL6JXnC.jpeg',
+    },
+    {
+      name: 'image45',
+      url: 'https://i.imgur.com/aJpqLpJ.jpeg',
+    },
+    {
+      name: 'image46',
+      url: 'https://i.imgur.com/ApBx1sC.jpeg',
+    },
+    {
+      name: 'image47',
+      url: 'https://i.imgur.com/lf66tCe.jpeg',
+    },
+    {
+      name: 'image48',
+      url: 'https://i.imgur.com/DRAojx1.jpeg',
+    },
+    {
+      name: 'image49',
+      url: 'https://i.imgur.com/9nHzMHy.jpeg',
+    },
+    {
+      name: 'image50',
+      url: 'https://i.imgur.com/gZEpnui.jpeg',
+    },
+    {
+      name: 'image51',
+      url: 'https://i.imgur.com/khxhWrP.jpeg',
+    },
+    {
+      name: 'image52',
+      url: 'https://i.imgur.com/xkQDNlf.jpeg',
+    },
+    {
+      name: 'image53',
+      url: 'https://i.imgur.com/8RvMBk4.jpeg',
+    },
+    {
+      name: 'image54',
+      url: 'https://i.imgur.com/HOMpGY1.jpeg',
+    },
+    {
+      name: 'image55',
+      url: 'https://i.imgur.com/8JfPyq8.jpeg',
+    },
+    {
+      name: 'image56',
+      url: 'https://i.imgur.com/5qedpAR.jpeg',
+    },
+    {
+      name: 'image57',
+      url: 'https://i.imgur.com/t5n66sP.jpeg',
+    },
+    {
+      name: 'image58',
+      url: 'https://i.imgur.com/A7u4OY8.jpeg',
+    },
+    {
+      name: 'image59',
+      url: 'https://i.imgur.com/hdnzlSO.jpeg',
+    },
+    {
+      name: 'image60',
+      url: 'https://i.imgur.com/KVOFcD3.jpeg',
+    },
+    {
+      name: 'image61',
+      url: 'https://i.imgur.com/aHCm1Ka.jpeg',
+    },
+    {
+      name: 'image62',
+      url: 'https://i.imgur.com/jAOm9zK.jpeg',
+    },
+    {
+      name: 'image63',
+      url: 'https://i.imgur.com/EpmaWRV.jpeg',
+    },
+    {
+      name: 'image64',
+      url: 'https://i.imgur.com/XnLFbRh.jpeg',
+    },
+    {
+      name: 'image65',
+      url: 'https://i.imgur.com/Ple3hCl.jpeg',
+    },
+    {
+      name: 'image66',
+      url: 'https://i.imgur.com/hOy2Ucc.jpeg',
+    },
+    {
+      name: 'image67',
+      url: 'https://i.imgur.com/KT9fW1j.jpeg',
+    },
+    {
+      name: 'image68',
+      url: 'https://i.imgur.com/nDvd7h5.jpeg',
+    }        
   ],
 };
