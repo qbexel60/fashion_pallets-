@@ -109,7 +109,7 @@ export const sectionImages: {
     },
     {
       name: 'image13',
-      url: 'https://i.imgur.com/w6sjljN.jpeg',
+      url: 'https://i.imgur.com/SfVrITN.jpeg',
     },
     {
       name: 'image14',
