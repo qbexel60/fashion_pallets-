@@ -9,7 +9,7 @@ const navItems = [
   { icon: Home, label: 'Home', href: '/' },
   { icon: Image, label: 'Gallery', href: '/gallery/real' },
   { icon: Info, label: 'How our Pre-Order Works', href: '/#howitworks' },
-  { icon: Phone, label: 'Contact us', href: '/#contact-form' },
+  { icon: Phone, label: 'Wanna Pre-Order?', href: '/#contact-form' },
 ];
 
 export default function AnimatedNavbar() {
