@@ -68,7 +68,7 @@ export function ContactUsForm() {
   return (
     <Container>
       <h1 id="contact-form" className="text-3xl font-bold mb-5 mt-20">
-        Wanna Pre-Oder?
+        Wanna Pre-Oder?  
       </h1>
       <p className="text-[20px] font-semibold mb-5 font-sans">
         Fill out this this form and We will reach out to you with our newest Pre-Order Products
