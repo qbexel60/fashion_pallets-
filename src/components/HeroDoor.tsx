@@ -143,7 +143,8 @@ const HeroDoor = () => {
                   <FaFacebook />
                 </a>
                 <a
-                  href="#"
+                  href="https://wa.me/8801943415089?text=Hello%2C%20I%20want%20to%20know%20more%20about%20Fashion%20Pallete%20BD
+"
                   className="text-center relative z-[1000] font-sans bg-[#000000] flex gap-2 items-center text-[#fff] px-[30px] py-[17px] rounded-full leading-[85%] text-[20px] uppercase mb-[25px] font-bold"
                 >
                   <span>Call Now</span>
