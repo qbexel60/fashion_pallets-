@@ -27,15 +27,15 @@ export const sectionImages: {
   preOrdered: [
     {
       name: 'image1',
-      url: 'https://i.imgur.com/aPDEmth.jpeg',
+      url: 'https://i.imgur.com/Cjbd0QX.jpeg',
     },
     {
       name: 'image2',
-      url: 'https://i.imgur.com/tz0Hc02.jpeg',
+      url: 'https://i.imgur.com/v2J5pIz.jpeg',
     },
     {
       name: 'image3',
-      url: 'https://i.imgur.com/raTUAxf.jpeg',
+      url: 'https://i.imgur.com/Myix4ph.jpeg',
     },
     {
       name: 'image4',
