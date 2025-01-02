@@ -57,15 +57,15 @@ export const sectionImages: {
   real: [
     {
       name: 'image1',
-      url: 'https://i.imgur.com/HAveSTC.jpeg',
+      url: 'https://i.imgur.com/VS9zjTA.jpeg',
     },
     {
       name: 'image2',
-      url: 'https://i.imgur.com/uQKVUCq.jpeg',
+      url: 'https://i.imgur.com/w6sjljN.jpeg',
     },
     {
       name: 'image3',
-      url: 'https://i.imgur.com/oWZWqUK.jpeg',
+      url: 'https://i.imgur.com/uzQ7uI3.jpeg',
     },
     {
       name: 'image4',
