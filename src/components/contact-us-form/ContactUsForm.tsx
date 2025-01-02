@@ -72,6 +72,7 @@ export function ContactUsForm() {
       </h1>
       <p className="text-[20px] font-semibold mb-5 font-sans">
         Fill out this form and We will reach out to you with our newest Pre-Order Products
+      </p>
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
