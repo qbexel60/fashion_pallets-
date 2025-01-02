@@ -48,7 +48,7 @@ export default function AnimatedNavbar() {
       {/* Toggle Button - Left position adjusted */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-4 right-4 z-[6000] p-2 bg-gradient-to-l from-[#ec5cff] to-[#881cb3] text-primary-foreground rounded-full shadow-lg"
+        className="fixed top-4 right-4 z-[6000] p-2 bg-gradient-to-l from-[#8d5794] to-[#881cb3] text-primary-foreground rounded-full shadow-lg"
         aria-label={isOpen ? 'Close menu' : 'Open menu'}
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
