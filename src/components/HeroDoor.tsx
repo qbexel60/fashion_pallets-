@@ -76,30 +76,30 @@ const HeroDoor = () => {
       <div className="flex overflow-x-hidden pt-6 pb-8 max-md:mt-[0px] max-md:justify-center justify-between max-md:flex-col items-center">
         <div className="w-full relative max-md:w-[80%]">
           <Image
-            className="z-50 absolute object-cover w-[200px] top-[30px] left-[-90px] float-top-left"
-            src="/images/bag-s.png"
+            className="z-50 absolute object-cover w-[190px] top-[30px] left-[-80px] float-top-left"
+            src="/images/bag-s.svg"
             alt="bag"
             width={1020}
             height={1000}
           />
           <Image
-            className="z-50 absolute object-cover w-[200px] top-[30px] right-[-90px] float-top-right"
-            src="/images/bed-s.png"
+            className="z-50 absolute object-cover w-[160px] top-[40px] right-[-70px] float-top-right"
+            src="/images/make-up.svg"
             alt="bed"
             width={1020}
             height={1000}
           />
           <Image
-            src="/images/shoe-s.png"
+            src="/images/shoe-s.svg"
             alt="shoe"
-            className="z-50 absolute object-cover w-[120px] bottom-[30px] left-[-60px] float-bottom-left"
+            className="z-50 absolute object-cover w-[120px] bottom-[45px] left-[-45px] float-bottom-left"
             width={1020}
             height={1000}
           />
           <Image
-            src="/images/watch-s.png"
+            src="/images/watch-s.svg"
             alt="shoe"
-            className="z-50 absolute object-cover w-[120px] bottom-[30px] right-[-60px] float-bottom-right"
+            className="z-50 absolute object-cover w-[120px] bottom-[30px] right-[-50px] float-bottom-right"
             width={1020}
             height={1000}
           />
