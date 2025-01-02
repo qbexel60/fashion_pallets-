@@ -63,12 +63,12 @@ export default function Footer() {
 
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
-            <p className="mb-2">Rose villa, sontosh, tangail sadar, Tangail</p>
+            <p className="mb-2">Rose Villa, Sontosh, Tangail Sadar, Tangail</p>
             <a
               href="tel:+8801973415089"
               className="hover:text-gray-300 transition-colors"
             >
-              +880 1973 415089
+              +880 1943 415089
             </a>
             <p className="mt-2">
               <a
@@ -107,7 +107,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-sm text-gray-400">
-            &copy; {new Date().getFullYear()} Fashion Pallet BD. All rights
+            &copy; {new Date().getFullYear()} Fashion Pallete BD. All rights
             reserved.
           </p>
         </div>

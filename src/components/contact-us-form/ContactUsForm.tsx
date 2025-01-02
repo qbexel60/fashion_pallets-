@@ -71,7 +71,7 @@ export function ContactUsForm() {
         Wanna Pre-Oder?  
       </h1>
       <p className="text-[20px] font-semibold mb-5 font-sans">
-        Fill out this this form and We will reach out to you with our newest Pre-Order Products
+        Fill out this form and We will reach out to you with our newest Pre-Order Products
       <Form {...form}>
         <form
           onSubmit={form.handleSubmit(onSubmit)}
