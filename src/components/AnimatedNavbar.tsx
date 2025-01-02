@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation';
 const navItems = [
   { icon: Home, label: 'Home', href: '/' },
   { icon: Image, label: 'Gallery', href: '/gallery/real' },
-  { icon: Info, label: 'How it works', href: '/#howitworks' },
+  { icon: Info, label: 'How our Pre-Order Works', href: '/#howitworks' },
   { icon: Phone, label: 'Contact us', href: '/#contact-form' },
 ];
 
