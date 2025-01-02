@@ -224,7 +224,127 @@ export const sectionImages: {
     {
       name: 'image50',
       url: 'https://i.imgur.com/GLvAOxs.jpeg',
-    }
+    },
+    {
+      name: 'image51',
+      url: 'https://i.imgur.com/aUv3Tnd.jpeg',
+    },
+    {
+      name: 'image52',
+      url: 'https://i.imgur.com/xZzx7Ai.jpeg',
+    },
+    {
+      name: 'image53',
+      url: 'https://i.imgur.com/P0uPQ12.jpeg',
+    },
+    {
+      name: 'image54',
+      url: 'https://i.imgur.com/li6KtLE.jpeg',
+    },
+    {
+      name: 'image55',
+      url: 'https://i.imgur.com/ptOTWnO.jpeg',
+    },
+    {
+      name: 'image56',
+      url: 'https://i.imgur.com/g1b5nFT.jpeg',
+    },
+    {
+      name: 'image57',
+      url: 'https://i.imgur.com/Cjbd0QX.jpeg',
+    },
+    {
+      name: 'image58',
+      url: 'https://i.imgur.com/lIm9cIt.jpeg',
+    },
+    {
+      name: 'image59',
+      url: 'https://i.imgur.com/v2J5pIz.jpeg',
+    },
+    {
+      name: 'image60',
+      url: 'https://i.imgur.com/RC10roN.jpeg',
+    },
+    {
+      name: 'image61',
+      url: 'https://i.imgur.com/gsJqi2r.jpeg',
+    },
+    {
+      name: 'image62',
+      url: 'https://i.imgur.com/8t0ZlIV.jpeg',
+    },
+    {
+      name: 'image63',
+      url: 'https://i.imgur.com/kw1u9T4.jpeg',
+    },
+    {
+      name: 'image64',
+      url: 'https://i.imgur.com/SRekj0C.jpeg',
+    },
+    {
+      name: 'image65',
+      url: 'https://i.imgur.com/nzuh052.jpeg',
+    },
+    {
+      name: 'image66',
+      url: 'https://i.imgur.com/N2A2r6B.jpeg',
+    },
+    {
+      name: 'image67',
+      url: 'https://i.imgur.com/UD5m7Tg.jpeg',
+    },
+    {
+      name: 'image68',
+      url: 'https://i.imgur.com/fQXk9yl.jpeg',
+    },
+    {
+      name: 'image69',
+      url: 'https://i.imgur.com/82ak0Kd.jpeg',
+    },
+    {
+      name: 'image70',
+      url: 'https://i.imgur.com/1M9ldyY.jpeg',
+    },
+    {
+      name: 'image71',
+      url: 'https://i.imgur.com/m37ssqB.jpeg',
+    },
+    {
+      name: 'image72',
+      url: 'https://i.imgur.com/NrwH3M3.jpeg',
+    },
+    {
+      name: 'image73',
+      url: 'https://i.imgur.com/BsfXKCP.jpeg',
+    },
+    {
+      name: 'image74',
+      url: 'https://i.imgur.com/Myix4ph.jpeg',
+    },
+    {
+      name: 'image75',
+      url: 'https://i.imgur.com/0Xs3EYU.jpeg',
+    },
+    {
+      name: 'image76',
+      url: 'https://i.imgur.com/PdslbmX.jpeg',
+    },
+    {
+      name: 'image77',
+      url: 'https://i.imgur.com/dAAvN6G.jpeg',
+    },
+    {
+      name: 'image78',
+      url: 'https://i.imgur.com/VXnqKhF.jpeg',
+    },
+    {
+      name: 'image79',
+      url: 'https://i.imgur.com/lYudsiq.jpeg',
+    },
+    {
+      name: 'image80',
+      url: 'https://i.imgur.com/NsA5L6l.jpeg',
+    }  
   ],
 
   real: [
