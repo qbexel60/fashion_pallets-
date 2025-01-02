@@ -136,7 +136,7 @@ const HeroDoor = () => {
               </p>
               <div className="flex justify-center gap-4 items-center flex-col">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/share/g/gS9Vopqx9x6sF3eU/"
                   className="text-center relative z-[1000] font-sans bg-[#8B34AA] flex gap-2 items-center text-[#fff] px-[30px] py-[17px] rounded-full leading-[85%] text-[20px] uppercase mt-[15px] font-bold"
                 >
                   <span>Join fb Group</span>
