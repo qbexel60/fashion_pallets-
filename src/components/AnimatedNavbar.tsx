@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation';
 const navItems = [
   { icon: Home, label: 'Home', href: '/' },
   { icon: Image, label: 'Gallery', href: '/gallery/real' },
-  { icon: Info, label: 'How Pre-Order Works', href: '/#howitworks' },
+  { icon: Info, label: 'How it works', href: '/#howitworks' },
   { icon: Phone, label: 'Contact us', href: '/#contact-form' },
 ];
 
@@ -45,10 +45,10 @@ export default function AnimatedNavbar() {
 
   return (
     <div className="relative">
-      {/* Toggle Button */}
+      {/* Toggle Button - Left position adjusted */}
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-4 right-4 z-[5000] p-2 bg-gradient-to-l from-[#B947C7] to-[#8632A7] text-primary-foreground rounded-full shadow-lg"
+        className="fixed top-4 right-4 z-[6000] p-2 bg-gradient-to-l from-[#ec5cff] to-[#881cb3] text-primary-foreground rounded-full shadow-lg"
         aria-label={isOpen ? 'Close menu' : 'Open menu'}
       >
         {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -62,10 +62,10 @@ export default function AnimatedNavbar() {
         />
       )}
 
-      {/* Navbar */}
+      {/* Navbar - Changed positioning and transform */}
       <nav
-        className={`fixed top-0 left-0 bottom-0 w-64 text-white bg-gradient-to-b from-[#B947C7] to-[#8632A7] z-[5000] p-4 shadow-lg transform transition-transform duration-300 ${
-          isOpen ? 'translate-x-0' : '-translate-x-full'
+        className={`fixed top-0 right-0 bottom-0 w-64 text-white bg-gradient-to-b from-[#B947C7] to-[#8632A7] z-[5000] p-4 shadow-lg transform transition-transform duration-300 ${
+          isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         <ul className="space-y-4 mt-16">
@@ -75,7 +75,7 @@ export default function AnimatedNavbar() {
               className="transform transition-transform duration-300"
               style={{
                 opacity: isOpen ? 1 : 0,
-                transform: `translateX(${isOpen ? 0 : -20}px)`,
+                transform: `translateX(${isOpen ? 0 : 20}px)`,
                 transition: `all 0.3s ease-in-out ${index * 0.1}s`,
               }}
             >
