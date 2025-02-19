@@ -348,7 +348,7 @@ export const sectionImages: {
   ],
 
   real: [
-    const images = [
+   
       { name: 'image1', url: 'https://ibb.co.com/kVD05BHs' },
       { name: 'image2', url: 'https://ibb.co.com/qYjsm2HS' },
       { name: 'image3', url: 'https://ibb.co.com/Gv5PM0Hf' },
@@ -429,7 +429,7 @@ export const sectionImages: {
       { name: 'image78', url: 'https://ibb.co.com/CsmM5y4v' },
       { name: 'image79', url: 'https://ibb.co.com/8DFTwS4h' },
       { name: 'image80', url: 'https://ibb.co.com/93N624P7' }
-    ];
+    ],
     
   reviews: [
     {
