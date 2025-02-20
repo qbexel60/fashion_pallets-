@@ -672,7 +672,7 @@ export const sectionImages: {
   reviews:[
     {
       name: 'image1',
-      url: 'https://i.ibb.co.com/W4gZGycM/410355444-336051899190367-1784251610997761509-n.jpg',
+      url: 'https://i.ibb.co.com/N6vJmQZM/472230242-581776677951220-1790889243881507524-n.jpg',
     },
     {
       name: 'image2',
