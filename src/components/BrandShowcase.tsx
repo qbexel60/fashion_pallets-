@@ -25,7 +25,7 @@ export default function BrandShowcase() {
           />
           <ShowcaseSection
             title="Reviews"
-            description="100+ reviews from our satisfied customers"
+            description="1000+ reviews from our satisfied customers"
             images={sectionImages.reviews}
             section="reviews"
           />
