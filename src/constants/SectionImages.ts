@@ -26,323 +26,323 @@ export const sectionImages: {
   preOrdered: [
     {
       name: 'image1',
-      url: 'https://i.imgur.com/pHb1wym.jpeg',
+      url: 'https://i.ibb.co.com/Xf72pJ10/471951108-581376161324605-4812033452893168681-n.jpg',
     },
     {
       name: 'image2',
-      url: 'https://i.imgur.com/v2J5pIz.jpeg',
+      url: 'https://i.ibb.co.com/vvwZmxMV/471949956-581379567990931-1190037954665846951-n.jpg',
     },
     {
       name: 'image3',
-      url: 'https://i.imgur.com/Myix4ph.jpeg',
+      url: 'https://i.ibb.co.com/xvSmLn2/472218979-581379521324269-5254457559465102026-n.jpg',
     },
     {
       name: 'image4',
-      url: 'https://i.imgur.com/DCCt0Pa.jpeg',
+      url: 'https://i.ibb.co.com/d4dHSxMX/472120324-581379477990940-509343121545304622-n.jpg',
     },
     {
       name: 'image5',
-      url: 'https://i.imgur.com/ynC4HwB.jpeg',
+      url: 'https://i.ibb.co.com/BHzKJKkY/472015630-581379451324276-3283054278351861017-n.jpg',
     },
     {
       name: 'image6',
-      url: 'https://i.imgur.com/lKRiFDC.jpeg',
+      url: 'https://i.ibb.co.com/cKVjVLjP/472048194-581379414657613-8155195118378375920-n.jpg',
     },
     {
       name: 'image7',
-      url: 'https://i.imgur.com/zTYXTrf.jpeg',
+      url: 'https://i.ibb.co.com/SwNBmjxz/472005640-581379357990952-5865899478878274660-n.jpg',
     },
     {
       name: 'image8',
-      url: 'https://i.imgur.com/6ba5RVJ.jpeg',
+      url: 'https://i.ibb.co.com/d0PtJMTv/472337150-581379317990956-2320949287339633507-n.jpg',
     },
     {
       name: 'image9',
-      url: 'https://i.imgur.com/iQVfRsq.jpeg',
+      url: 'https://i.ibb.co.com/SwW6DbsS/472200509-581379281324293-5247484539045617290-n.jpg',
     },
     {
       name: 'image10',
-      url: 'https://i.imgur.com/cEGJvec.jpeg',
+      url: 'https://i.ibb.co.com/fYLFHL9Z/472169343-581379241324297-8139385898036082874-n.jpg',
     },
     {
       name: 'image11',
-      url: 'https://i.imgur.com/1clsnCA.jpeg',
+      url: 'https://i.ibb.co.com/DDwHdsm5/472235773-581379207990967-4270205530078966590-n.jpg',
     },
     {
       name: 'image12',
-      url: 'https://i.imgur.com/1rJaAkc.jpeg',
+      url: 'https://i.ibb.co.com/C3RvGTwf/472180564-581379174657637-7959764083319626127-n.jpg',
     },
     {
       name: 'image13',
-      url: 'https://i.imgur.com/ur2rpYB.jpeg',
+      url: 'https://i.ibb.co.com/60ZhLqtQ/471973732-581379141324307-4956556947009241427-n.jpg',
     },
     {
       name: 'image14',
-      url: 'https://i.imgur.com/1KY6iRa.jpeg',
+      url: 'https://i.ibb.co.com/9H9w8L7J/471988012-581379104657644-8912307245251632773-n.jpg',
     },
     {
       name: 'image15',
-      url: 'https://i.imgur.com/Aai270b.jpeg',
+      url: 'https://i.ibb.co.com/27LWhYN2/472042310-581379067990981-3178403906118285388-n.jpg',
     },
     {
       name: 'image16',
-      url: 'https://i.imgur.com/LbpP9S1.jpeg',
+      url: 'https://i.ibb.co.com/8gsT2xTz/472121734-581379024657652-5340229148827738228-n.jpg',
     },
     {
       name: 'image17',
-      url: 'https://i.imgur.com/uiWODK3.jpeg',
+      url: 'https://i.ibb.co.com/bMDs41nv/472234690-581378987990989-6472251676683390393-n.jpg',
     },
     {
       name: 'image18',
-      url: 'https://i.imgur.com/CnaRClR.jpeg',
+      url: 'https://i.ibb.co.com/ymgjDfv1/472328847-581378954657659-2809081499547465731-n.jpg',
     },
     {
       name: 'image19',
-      url: 'https://i.imgur.com/kFkUyiF.jpeg',
+      url: 'https://i.ibb.co.com/ks3Bttzs/472337645-581378911324330-3996456991450395975-n.jpg',
     },
     {
       name: 'image20',
-      url: 'https://i.imgur.com/NfcWcFq.jpeg',
+      url: 'https://i.ibb.co.com/dsGR1Hcp/472007080-581378864657668-2746870391651851665-n.jpg',
     },
     {
       name: 'image21',
-      url: 'https://i.imgur.com/8l3iyA9.jpeg',
+      url: 'https://i.ibb.co.com/vvrnDSPC/472065278-581378821324339-7433437681617384190-n.jpg',
     },
     {
       name: 'image22',
-      url: 'https://i.imgur.com/etSUvVk.jpeg',
+      url: 'https://i.ibb.co.com/rKfmrvKF/472233902-581378767991011-1180734491849528129-n.jpg',
     },
     {
       name: 'image23',
-      url: 'https://i.imgur.com/lMj5rho.jpeg',
+      url: 'https://i.ibb.co.com/wNv1yLYV/472234676-581378721324349-8091036563279658274-n.jpg',
     },
     {
       name: 'image24',
-      url: 'https://i.imgur.com/oiz3ld2.jpeg',
+      url: 'https://i.ibb.co.com/7cv2SSb/471993115-581378691324352-4278147854232492722-n.jpg',
     },
     {
       name: 'image25',
-      url: 'https://i.imgur.com/LDpvSbj.jpeg',
+      url: 'https://i.ibb.co.com/9HcgZ6Jt/472224693-581378651324356-2208292375649818344-n.jpg',
     },
     {
       name: 'image26',
-      url: 'https://i.imgur.com/RhOnQ8c.jpeg',
+      url: 'https://i.ibb.co.com/0VhPk5Tt/472177677-581378614657693-6723037836654501061-n.jpg',
     },
     {
       name: 'image27',
-      url: 'https://i.imgur.com/HvuWZn0.jpeg',
+      url: 'https://i.ibb.co.com/LDGLHPT8/472053854-581378571324364-3921067061974308347-n.jpg',
     },
     {
       name: 'image28',
-      url: 'https://i.imgur.com/sxdEc6S.jpeg',
+      url: 'https://i.ibb.co.com/bMCQFS62/472181510-581378541324367-6157393680676571390-n.jpg',
     },
     {
       name: 'image29',
-      url: 'https://i.imgur.com/S1Ffcjk.jpeg',
+      url: 'https://i.ibb.co.com/xKTFnwZY/472323311-581378497991038-1910754762440376478-n.jpg',
     },
     {
       name: 'image30',
-      url: 'https://i.imgur.com/4NjuBOG.jpeg',
+      url: 'https://i.ibb.co.com/HLn5nfLj/472397901-581378414657713-7471820254850738989-n.jpg',
     },
     {
       name: 'image31',
-      url: 'https://i.imgur.com/zPDtG5B.jpeg',
+      url: 'https://i.ibb.co.com/G4MP0Xrs/471950910-581378371324384-3800743408203645821-n.jpg',
     },
     {
       name: 'image32',
-      url: 'https://i.imgur.com/ZiIsRWk.jpeg',
+      url: 'https://i.ibb.co.com/whVjSDPC/471951170-581378307991057-7830847711124997525-n.jpg',
     },
     {
       name: 'image33',
-      url: 'https://i.imgur.com/bgbh1au.jpeg',
+      url: 'https://i.ibb.co.com/zHX3Zg5H/472160738-581378264657728-3937682567246669599-n.jpg',
     },
     {
       name: 'image34',
-      url: 'https://i.imgur.com/BNx2JwK.jpeg',
+      url: 'https://i.ibb.co.com/hRq20fHr/471949851-581378221324399-2115175374591465869-n.jpg',
     },
     {
       name: 'image35',
-      url: 'https://i.imgur.com/vwW0b7D.jpeg',
+      url: 'https://i.ibb.co.com/Dd3XMc4/472078019-581378191324402-2636200092703339413-n.jpg',
     },
     {
       name: 'image36',
-      url: 'https://i.imgur.com/IB5VkEi.jpeg',
+      url: 'https://i.ibb.co.com/ZpqwsrdV/472006106-581378151324406-2046298565146525011-n.jpg',
     },
     {
       name: 'image37',
-      url: 'https://i.imgur.com/LKGgeRQ.jpeg',
+      url: 'https://i.ibb.co.com/WNyJhFMD/472070625-581378104657744-8013364786200446577-n.jpg',
     },
     {
       name: 'image38',
-      url: 'https://i.imgur.com/Wre1YU8.jpeg',
+      url: 'https://i.ibb.co.com/4RTpjHqy/472098104-581378051324416-7253140227083363189-n.jpg',
     },
     {
       name: 'image39',
-      url: 'https://i.imgur.com/fCeViY6.jpeg',
+      url: 'https://i.ibb.co.com/9mgXW2JJ/472072007-581377997991088-3699815083775609067-n.jpg',
     },
     {
       name: 'image40',
-      url: 'https://i.imgur.com/CHHZBgy.jpeg',
+      url: 'https://i.ibb.co.com/B2zyFmJn/472178166-581377954657759-9076632360403377768-n.jpg',
     },
     {
       name: 'image41',
-      url: 'https://i.imgur.com/d4pyYoq.jpeg',
+      url: 'https://i.ibb.co.com/VWpDWWSd/472338164-581377924657762-51197251174634796-n.jpg',
     },
     {
       name: 'image42',
-      url: 'https://i.imgur.com/hrTGjmN.jpeg',
+      url: 'https://i.ibb.co.com/bjFgc3TT/472141564-581377864657768-6801484231559214794-n.jpg',
     },
     {
       name: 'image43',
-      url: 'https://i.imgur.com/K5bZYxH.jpeg',
+      url: 'https://i.ibb.co.com/8LMvgskS/471949749-581377827991105-5520759606646403934-n.jpg',
     },
     {
       name: 'image44',
-      url: 'https://i.imgur.com/i0MV3m0.jpeg',
+      url: 'https://i.ibb.co.com/39BjcwNc/472140628-581377781324443-138201632474480496-n.jpg',
     },
     {
       name: 'image45',
-      url: 'https://i.imgur.com/x7LBtpF.jpeg',
+      url: 'https://i.ibb.co.com/nM0F0Q8F/472394291-581377737991114-3211971760967454688-n.jpg',
     },
     {
       name: 'image46',
-      url: 'https://i.imgur.com/6dT4XcP.jpeg',
+      url: 'https://i.ibb.co.com/rGpLYKrw/472037682-581377694657785-3602957626877714867-n.jpg',
     },
     {
       name: 'image47',
-      url: 'https://i.imgur.com/SInTZXi.jpeg',
+      url: 'https://i.ibb.co.com/ffmX4tv/471950339-581377661324455-7238036461364060977-n.jpg',
     },
     {
       name: 'image48',
-      url: 'https://i.imgur.com/8Pdrmvg.jpeg',
+      url: 'https://i.ibb.co.com/V0RJfStj/472187945-581377631324458-2998811580217228680-n.jpg',
     },
     {
       name: 'image49',
-      url: 'https://i.imgur.com/EZ36fWS.jpeg',
+      url: 'https://i.ibb.co.com/TB50gZpM/472102383-581377601324461-8931424809903247514-n.jpg',
     },
     {
       name: 'image50',
-      url: 'https://i.imgur.com/GLvAOxs.jpeg',
+      url: 'https://i.ibb.co.com/C3zYmQNb/472388021-581377564657798-5441590255026928834-n.jpg',
     },
     {
       name: 'image51',
-      url: 'https://i.imgur.com/aUv3Tnd.jpeg',
+      url: 'https://i.ibb.co.com/m54Nf6Vq/472202198-581377527991135-3803144732885165203-n.jpg',
     },
     {
       name: 'image52',
-      url: 'https://i.imgur.com/xZzx7Ai.jpeg',
+      url: 'https://i.ibb.co.com/C3vq2zMw/472236720-581377477991140-8745732925394511240-n.jpg',
     },
     {
       name: 'image53',
-      url: 'https://i.imgur.com/P0uPQ12.jpeg',
+      url: 'https://i.ibb.co.com/8Dc3wm1j/471951320-581377427991145-4634290069346090498-n.jpg',
     },
     {
       name: 'image54',
-      url: 'https://i.imgur.com/li6KtLE.jpeg',
+      url: 'https://i.ibb.co.com/kVCGcyh8/472222293-581377381324483-955327145401986055-n.jpg',
     },
     {
       name: 'image55',
-      url: 'https://i.imgur.com/ptOTWnO.jpeg',
+      url: 'https://i.ibb.co.com/jZTYp7SP/472234137-581377347991153-4535848167765999192-n.jpg',
     },
     {
       name: 'image56',
-      url: 'https://i.imgur.com/g1b5nFT.jpeg',
+      url: 'https://i.ibb.co.com/gbYF68K8/471972970-581377311324490-1704856938794287530-n.jpg',
     },
     {
       name: 'image57',
-      url: 'https://i.imgur.com/Cjbd0QX.jpeg',
+      url: 'https://i.ibb.co.com/WWBBG90c/472236691-581377267991161-7631809296137519879-n.jpg',
     },
     {
       name: 'image58',
-      url: 'https://i.imgur.com/lIm9cIt.jpeg',
+      url: 'https://i.ibb.co.com/QFyr0Kv1/472233784-581377217991166-6227900467450598754-n.jpg',
     },
     {
       name: 'image59',
-      url: 'https://i.imgur.com/v2J5pIz.jpeg',
+      url: 'https://i.ibb.co.com/Txsq8tTy/472290260-581377174657837-6641561554570334266-n.jpg',
     },
     {
       name: 'image60',
-      url: 'https://i.imgur.com/RC10roN.jpeg',
+      url: 'https://i.ibb.co.com/VpPLcp73/472447896-581377137991174-4913683578573554459-n.jpg',
     },
     {
       name: 'image61',
-      url: 'https://i.imgur.com/gsJqi2r.jpeg',
+      url: 'https://i.ibb.co.com/bMLkV95S/472065820-581377091324512-4480258474384665205-n.jpg',
     },
     {
       name: 'image62',
-      url: 'https://i.imgur.com/8t0ZlIV.jpeg',
+      url: 'https://i.ibb.co.com/6fdjSYz/472096046-581377031324518-7578067519579343319-n.jpg',
     },
     {
       name: 'image63',
-      url: 'https://i.imgur.com/kw1u9T4.jpeg',
+      url: 'https://i.ibb.co.com/gLDhsVhZ/471999982-581376984657856-2157913578064781006-n.jpg',
     },
     {
       name: 'image64',
-      url: 'https://i.imgur.com/SRekj0C.jpeg',
+      url: 'https://i.ibb.co.com/GfPBRTdY/472234317-581376927991195-1583328414482153865-n.jpg',
     },
     {
       name: 'image65',
-      url: 'https://i.imgur.com/nzuh052.jpeg',
+      url: 'https://i.ibb.co.com/VYYMGdrc/472121736-581376894657865-8041179652329425518-n.jpg',
     },
     {
       name: 'image66',
-      url: 'https://i.imgur.com/N2A2r6B.jpeg',
+      url: 'https://i.ibb.co.com/G4wxjMGZ/472263693-581376834657871-1997105037768701011-n.jpg',
     },
     {
       name: 'image67',
-      url: 'https://i.imgur.com/UD5m7Tg.jpeg',
+      url: 'https://i.ibb.co.com/DPzQyM8c/472006231-581376804657874-1740798431531755932-n.jpg',
     },
     {
       name: 'image68',
-      url: 'https://i.imgur.com/fQXk9yl.jpeg',
+      url: 'https://i.ibb.co.com/Q3gW0wMR/471951542-581376764657878-2128954360423892612-n.jpg',
     },
     {
       name: 'image69',
-      url: 'https://i.imgur.com/82ak0Kd.jpeg',
+      url: 'https://i.ibb.co.com/d4j4bkJh/472236819-581376727991215-1358742904613238657-n.jpg',
     },
     {
       name: 'image70',
-      url: 'https://i.imgur.com/1M9ldyY.jpeg',
+      url: 'https://i.ibb.co.com/5gtVCqc6/472233543-581376691324552-6271789610915413218-n.jpg',
     },
     {
       name: 'image71',
-      url: 'https://i.imgur.com/m37ssqB.jpeg',
+      url: 'https://i.ibb.co.com/zTKT9mDf/471961861-581376647991223-5704424431166608373-n.jpg',
     },
     {
       name: 'image72',
-      url: 'https://i.imgur.com/NrwH3M3.jpeg',
+      url: 'https://i.ibb.co.com/Hf2mXRGd/472021582-581376607991227-1744377647429902437-n.jpg',
     },
     {
       name: 'image73',
-      url: 'https://i.imgur.com/BsfXKCP.jpeg',
+      url: 'https://i.ibb.co.com/xyx5Tq0/472006387-581376571324564-6190573556285950057-n.jpg',
     },
     {
       name: 'image74',
-      url: 'https://i.imgur.com/Myix4ph.jpeg',
+      url: 'https://i.ibb.co.com/NdwqdPcW/471949166-581376534657901-6792235533429963279-n.jpg',
     },
     {
       name: 'image75',
-      url: 'https://i.imgur.com/0Xs3EYU.jpeg',
+      url: 'https://i.ibb.co.com/7DkwFTH/472171805-581376504657904-6999024302514186335-n.jpg',
     },
     {
       name: 'image76',
-      url: 'https://i.imgur.com/PdslbmX.jpeg',
+      url: 'https://i.ibb.co.com/nqb1fXpV/472003802-581376444657910-6963982677294196381-n.jpg',
     },
     {
       name: 'image77',
-      url: 'https://i.imgur.com/dAAvN6G.jpeg',
+      url: 'https://i.ibb.co.com/fzNfFT4K/471951185-581376397991248-9147158789685625060-n.jpg',
     },
     {
       name: 'image78',
-      url: 'https://i.imgur.com/VXnqKhF.jpeg',
+      url: 'https://i.ibb.co.com/kV5yXF6K/472022823-581376327991255-4516209296805071175-n.jpg',
     },
     {
       name: 'image79',
-      url: 'https://i.imgur.com/lYudsiq.jpeg',
+      url: 'https://i.ibb.co.com/5q3ZGGp/471949833-581376217991266-8360477620445737881-n.jpg',
     },
     {
       name: 'image80',
-      url: 'https://i.imgur.com/NsA5L6l.jpeg',
+      url: 'https://i.ibb.co.com/x8L0RRSY/472234037-581376187991269-987611162936811650-n.jpg',
     },
   ],
 
