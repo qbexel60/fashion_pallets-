@@ -349,7 +349,7 @@ export const sectionImages: {
   real: [
     {
       name: "image1",
-      url: "https://i.postimg.cc/j2SxN4TJ/471949934-581407104654844-1164426646739085714-n.jpg",
+      url: "https://ibb.co.com/RTLqS2kW",
     },
     { name: "image2", url: "https://ibb.co.com/qYjsm2HS" },
     { name: "image3", url: "https://ibb.co.com/Gv5PM0Hf" },
