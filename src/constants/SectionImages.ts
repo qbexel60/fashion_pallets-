@@ -26,7 +26,7 @@ export const sectionImages: {
   preOrdered: [
     {
       name: "image1",
-      url: "https://imgur.com/pHb1wym",
+      url: "https://imgur.com/pHb1wym.jpeg",
     },
     {
       name: "image2",
