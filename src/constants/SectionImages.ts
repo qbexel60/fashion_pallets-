@@ -26,7 +26,7 @@ export const sectionImages: {
   preOrdered: [
     {
       name: "image1",
-      url: "",
+      url: "https://imgur.com/pHb1wym",
     },
     {
       name: "image2",
@@ -349,7 +349,7 @@ export const sectionImages: {
   real: [
     {
       name: "image1",
-      url: "https://ibb.co.com/RTLqS2kW",
+      url: "https://imgur.com/pHb1wym",
     },
     { name: "image2", url: "https://ibb.co.com/qYjsm2HS" },
     { name: "image3", url: "https://ibb.co.com/Gv5PM0Hf" },
