@@ -2,8 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
 body {
   font-family: var(--font-yourfont);
 }
@@ -73,11 +71,11 @@ body {
   }
 }
 
+/* shadow helpers preserved */
 .custome-shadow-1,
 .custome-shadow-2,
 .custome-shadow-3,
-.custome-shadow-4
-{
+.custome-shadow-4 {
   position: absolute;
   top: 0;
   left: 0;
@@ -102,6 +100,29 @@ body {
   opacity: 0.25;
 }
 
+/* Hero scaling: default for small screens, then scale up on md/lg */
+.hero-title {
+  font-weight: 700;
+  line-height: 0.85;
+  font-size: 56px; /* mobile baseline */
+}
+.pera-details {
+  font-size: 16px;
+}
+
+/* medium screens */
+@media (min-width: 768px) {
+  .hero-title { font-size: 80px; }
+  .pera-details { font-size: 18px; }
+}
+
+/* large screens */
+@media (min-width: 1024px) {
+  .hero-title { font-size: 110px; }
+  .pera-details { font-size: 20px; }
+}
+
+/* small-phone adjustments (preserve existing tweaks) */
 @media screen and (max-width: 402px) {
   .pera-details{
     font-size: 15px;
@@ -109,21 +130,17 @@ body {
   .hero-title{
     font-size: 50px;
   }
-  
 }
-
 @media screen and (max-width: 379px) {
   .pera-details{
     font-size: 14px;
   }
-
   .hero-title{
     font-size: 47px;
   }
-  
 }
 
-
+/* Swiper & controls: make arrow positions responsive and consistent */
 .swiper {
   width: 100%;
   height: 100%;
@@ -135,12 +152,12 @@ body {
   background: rgba(63, 63, 63, 0.384);
   backdrop-filter: blur(10px);
   border-radius: 10px;
-  /* Center slide text vertically */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* ensure images fill container */
 .swiper-slide img {
   display: block;
   width: 100%;
@@ -148,37 +165,55 @@ body {
   object-fit: cover;
 }
 
+/* pagination bullets */
 .swiper-pagination-bullet {
-  background: #ffffff !important; /* Change this to your desired inactive color */
+  background: #ffffff !important;
   opacity: 0.7 !important;
 }
-
-/* Change active pagination bullet color */
 .swiper-pagination-bullet-active {
-  background: #db79ff !important; /* Change this to your desired active color */
+  background: #db79ff !important;
   opacity: 1;
 }
 
-/* Add this to your global CSS or component styles */
+/* navigation buttons — use a consistent right/left offset that adapts */
 .swiper-button-next,
 .swiper-button-prev {
-  color: white !important; /* Change navigation arrow color */
-}
-
-.swiper-button-next{
-  right: -300px;
-}
-/* Optional: Adjust navigation button background */
-.swiper-button-next,
-.swiper-button-prev {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 30px;
-  border-radius: 50%;
+  color: white !important;
+  background: rgba(0, 0, 0, 0.45);
+  padding: 10px;
+  border-radius: 9999px;
   width: 40px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+/* default: keep arrows inside container */
+.swiper-button-prev { left: 0.5rem; }
+.swiper-button-next { right: 0.5rem; }
+
+/* larger screens: move arrows slightly outward but not offscreen */
+@media (min-width: 1024px) {
+  .swiper-button-prev { left: 1rem; }
+  .swiper-button-next { right: 1rem; }
+}
+
+/* reduce huge slide padding on big screens */
+.swiper .w-full > div,
+.swiper-slide > div {
+  padding: 1rem; /* instead of p-20 which is too large */
+}
+
+/* keep arrow icon sizing */
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  font-size: 20px !important;
+  font-size: 18px !important;
+}
+
+/* small accessibility focus states */
+.swiper-button-next:focus,
+.swiper-button-prev:focus {
+  outline: 2px solid rgba(255,255,255,0.15);
+  outline-offset: 2px;
 }
