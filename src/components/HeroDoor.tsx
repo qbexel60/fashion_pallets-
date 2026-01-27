@@ -162,7 +162,7 @@ const HeroDoor = () => {
         <div className="absolute inset-0 bg-gradient-to-br from-yellow-50 via-orange-50 to-purple-50"></div>
         
         {/* Floating Decorative Elements */}
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute inset-0 overflow-hidden pointer-events-none z-20">
           <Image
             className="absolute object-cover w-[280px] lg:w-[320px] top-[10%] left-[5%] float-top-left opacity-90"
             src="/images/bag-s.svg"
