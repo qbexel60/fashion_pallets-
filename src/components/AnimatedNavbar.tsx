@@ -1,13 +1,15 @@
 'use client';
 
 import { useState, useCallback } from 'react';
-import { Menu, X, Home, Image, Info, Phone } from 'lucide-react';
+import { Menu, X, Home, Image, Info, Phone, ShoppingCart } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import { useCart } from './cart/CartContext';
 
 const navItems = [
   { icon: Home, label: 'Home', href: '/' },
   { icon: Image, label: 'Gallery', href: '/gallery/real' },
+  { icon: ShoppingCart, label: 'Products', href: '/products/list' },
   { icon: Info, label: 'How our Pre-Order Works', href: '/#howitworks' },
   { icon: Phone, label: 'Wanna Pre-Order?', href: '/#contact-form' },
 ];
@@ -15,6 +17,7 @@ const navItems = [
 export default function AnimatedNavbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
+  const { totalItems, toggleCart } = useCart();
 
   const handleLinkClick = useCallback(
     (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, href: string) => {
@@ -45,14 +48,30 @@ export default function AnimatedNavbar() {
 
   return (
     <div className="relative">
-      {/* Toggle Button - Left position adjusted */}
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="fixed top-4 right-4 z-[6000] p-2 bg-gradient-to-l from-[#8d5794] to-[#881cb3] text-primary-foreground rounded-full shadow-lg"
-        aria-label={isOpen ? 'Close menu' : 'Open menu'}
-      >
-        {isOpen ? <X size={24} /> : <Menu size={24} />}
-      </button>
+      {/* Cart + Menu Buttons */}
+      <div className="fixed top-4 right-4 z-[6000] flex items-center gap-3">
+        <button
+          type="button"
+          onClick={toggleCart}
+          className="relative flex items-center justify-center w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 text-white shadow-lg border border-white/20"
+          aria-label="Open cart"
+        >
+          <ShoppingCart size={18} />
+          {totalItems > 0 && (
+            <span className="absolute -top-1 -right-1 min-w-[18px] h-[18px] rounded-full bg-green-500 text-[10px] font-semibold flex items-center justify-center text-white px-1">
+              {totalItems}
+            </span>
+          )}
+        </button>
+
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className="p-2 bg-gradient-to-l from-[#8d5794] to-[#881cb3] text-primary-foreground rounded-full shadow-lg"
+          aria-label={isOpen ? 'Close menu' : 'Open menu'}
+        >
+          {isOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </div>
 
       {/* Overlay */}
       {isOpen && (

@@ -4,6 +4,8 @@ import "./globals.css";
 import Logo from "@/components/Logo";
 import AnimatedNavbar from "@/components/AnimatedNavbar";
 import Footer from "@/components/Footer";
+import { CartProvider } from "@/components/cart/CartContext";
+import CartDrawer from "@/components/cart/CartDrawer";
 
 const yourFont = localFont({
   src: [
@@ -32,11 +34,14 @@ export default function RootLayout({
         suppressHydrationWarning
         className={`${yourFont.variable} antialiased bg-[#030507] text-white min-h-screen`}
       >
-        <div className="fixed inset-0 -z-10 h-full max-md:h-[100vh] w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#B947C7_100%)]"></div>
-        <Logo />
-        <AnimatedNavbar />
-        {children}
-        <Footer/>
+        <CartProvider>
+          <div className="fixed inset-0 -z-10 h-full max-md:h-[100vh] w-full items-center px-5 py-24 [background:radial-gradient(125%_125%_at_50%_10%,#000_40%,#B947C7_100%)]"></div>
+          <Logo />
+          <AnimatedNavbar />
+          {children}
+          <Footer/>
+          <CartDrawer />
+        </CartProvider>
       </body>
     </html>
   );

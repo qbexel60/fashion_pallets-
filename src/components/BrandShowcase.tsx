@@ -12,13 +12,13 @@ export default function BrandShowcase() {
         </h2>
         <div className='grid grid-cols-1 gap-10'>
           <ShowcaseSection
-            title="Pre-Orders"
+            title="Pre-Orders Gallery"
             description="90+ types of products Pre-Order has taken so far"
             images={sectionImages.preOrdered}
             section="preOrdered"
           />
           <ShowcaseSection
-            title="Real Pictures"
+            title="Real Pictures Gallery"
             description="Real pictures of pre-ordered products after arriving in Bangladesh"
             images={sectionImages.real}
             section="real"
