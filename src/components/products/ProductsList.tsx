@@ -131,7 +131,7 @@ export default function ProductsList({ preOrderProducts, stockProducts, initialT
                       className="object-cover group-hover:scale-110 transition-transform duration-300"
                     />
                   </div>
-                  <h3 className="font-bold text-white mb-1 sm:mb-2 line-clamp-2 text-xs sm:text-sm md:text-base">
+                  <h3 className="font-bold text-white mb-1 sm:mb-2 line-clamp-2 text-xs sm:text-sm md:text-base h-8 sm:h-10 overflow-hidden">
                     {product.name}
                   </h3>
                   <p className="text-gray-300 text-xs sm:text-sm mb-1 sm:mb-2 hidden sm:block h-10 sm:h-12 overflow-hidden">
@@ -196,7 +196,7 @@ export default function ProductsList({ preOrderProducts, stockProducts, initialT
       {/* Product Details Dialog */}
       {selectedProduct && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 px-3 sm:px-4"
+          className="fixed inset-0 z-[8000] flex items-center justify-center bg-black/70 px-3 sm:px-4"
           onClick={() => setSelectedProduct(null)}
         >
           <div
@@ -400,16 +400,9 @@ export default function ProductsList({ preOrderProducts, stockProducts, initialT
       {/* Fullscreen image viewer */}
       {selectedProduct && imageFullscreen && (
         <div
-          className="fixed inset-0 z-[60] flex items-center justify-center bg-black/90"
+          className="fixed inset-0 z-[10000] flex items-center justify-center bg-black/90"
           onClick={() => setImageFullscreen(false)}
         >
-          <button
-            type="button"
-            onClick={() => setImageFullscreen(false)}
-            className="absolute top-4 left-4 rounded-full bg-white/15 hover:bg-white/25 text-white w-12 h-12 flex items-center justify-center text-lg font-semibold shadow-lg border border-white/30"
-          >
-            ✕
-          </button>
           {(() => {
             const images = [
               selectedProduct.imglink,
@@ -423,6 +416,13 @@ export default function ProductsList({ preOrderProducts, stockProducts, initialT
                 className="relative w-full h-full max-w-5xl max-h-[90vh] px-4"
                 onClick={(e) => e.stopPropagation()}
               >
+                <button
+                  type="button"
+                  onClick={() => setImageFullscreen(false)}
+                  className="absolute top-4 left-4 z-10 rounded-full bg-white/90 hover:bg-white/75 text-black w-12 h-12 flex items-center justify-center text-lg font-semibold shadow-lg border border-white/30"
+                >
+                  ✕
+                </button>
                 <div className="relative w-full h-full">
                   <Image
                     src={mainImage}
