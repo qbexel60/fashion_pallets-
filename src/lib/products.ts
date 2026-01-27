@@ -37,13 +37,15 @@ export async function getProducts({ useCache = true }: { useCache?: boolean } = 
       },
     });
 
-    // Store in Redis with NO TTL (permanent cache)
-    try {
-      await redis.set(CACHE_KEY, JSON.stringify(products));
-      console.log('💾 Products cached in Redis (no TTL)');
-    } catch (cacheError) {
-      console.warn('⚠️ Failed to cache products in Redis:', cacheError);
-      // Continue even if caching fails
+    // Only store in Redis if caching is enabled
+    if (useCache) {
+      try {
+        await redis.set(CACHE_KEY, JSON.stringify(products));
+        console.log('💾 Products cached in Redis (no TTL)');
+      } catch (cacheError) {
+        console.warn('⚠️ Failed to cache products in Redis:', cacheError);
+        // Continue even if caching fails
+      }
     }
 
     return products;
