@@ -23,7 +23,7 @@ type Props = {
 
 export default async function ProductsListPage({ searchParams }: Props) {
   // Fetch products ONCE on server
-  const allProducts = await getProducts();
+  const allProducts = await getProducts({ useCache: false });
   const params = await searchParams;
   const initialTab = params.tab === 'stock' ? 'stock' : 'pre-order';
 

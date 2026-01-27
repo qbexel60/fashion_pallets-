@@ -4,26 +4,28 @@ import { redis } from './redis';
 
 const CACHE_KEY = 'all_products';
 
-export async function getProducts() {
+export async function getProducts({ useCache = true }: { useCache?: boolean } = {}) {
   try {
-    // Try Redis first
-    const cached = await redis.get(CACHE_KEY);
-    if (cached) {
-      // Upstash can return either a JSON string or a parsed value.
-      if (typeof cached === 'string') {
-        try {
-          const parsed = JSON.parse(cached);
-          console.log('✅ Products fetched from Redis cache (parsed from string)');
-          return parsed;
-        } catch (_e) {
-          // If the string is somehow not valid JSON, clear it and fall back to DB
-          console.warn('⚠️ Invalid JSON string in Redis cache, clearing and fetching from DB');
-          await redis.del(CACHE_KEY);
+    if (useCache) {
+      // Try Redis first
+      const cached = await redis.get(CACHE_KEY);
+      if (cached) {
+        // Upstash can return either a JSON string or a parsed value.
+        if (typeof cached === 'string') {
+          try {
+            const parsed = JSON.parse(cached);
+            console.log('✅ Products fetched from Redis cache (parsed from string)');
+            return parsed;
+          } catch (_e) {
+            // If the string is somehow not valid JSON, clear it and fall back to DB
+            console.warn('⚠️ Invalid JSON string in Redis cache, clearing and fetching from DB');
+            await redis.del(CACHE_KEY);
+          }
+        } else {
+          // Already a parsed object/array – just return it
+          console.log('✅ Products fetched from Redis cache (already parsed)');
+          return cached;
         }
-      } else {
-        // Already a parsed object/array – just return it
-        console.log('✅ Products fetched from Redis cache (already parsed)');
-        return cached;
       }
     }
 
