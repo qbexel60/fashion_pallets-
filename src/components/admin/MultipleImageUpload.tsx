@@ -14,40 +14,55 @@ export default function MultipleImageUpload({ value, onChange, label = 'Addition
   const [error, setError] = useState('');
 
   const handleFileChange = async (e: React.ChangeEvent<HTMLInputElement>) => {
-    const file = e.target.files?.[0];
-    if (!file) return;
+    const files = Array.from(e.target.files ?? []);
+    if (files.length === 0) return;
 
-    if (!file.type.startsWith('image/')) {
-      setError('Please select an image file');
-      return;
-    }
+    // allow re-selecting the same file(s) again later
+    e.target.value = '';
 
-    if (file.size > 10 * 1024 * 1024) {
-      setError('Image size must be less than 10MB');
-      return;
+    // Validate first so we fail fast before starting uploads
+    for (const file of files) {
+      if (!file.type.startsWith('image/')) {
+        setError('Please select an image file');
+        return;
+      }
+      if (file.size > 10 * 1024 * 1024) {
+        setError('Image size must be less than 10MB');
+        return;
+      }
     }
 
     setError('');
     setUploading(true);
 
     try {
-      const formData = new FormData();
-      formData.append('image', file);
+      const uploadedUrls: string[] = [];
 
-      const response = await fetch('/api/admin/upload', {
-        method: 'POST',
-        body: formData,
-      });
+      // Upload sequentially to avoid hammering ImgBB / request limits
+      for (const file of files) {
+        const formData = new FormData();
+        formData.append('image', file);
 
-      const data = await response.json();
+        const response = await fetch('/api/admin/upload', {
+          method: 'POST',
+          body: formData,
+        });
 
-      if (data.success) {
-        onChange([...value, data.url]);
-      } else {
-        setError(data.error || 'Failed to upload image');
+        const data = await response.json();
+
+        if (!data.success) {
+          throw new Error(data.error || 'Failed to upload image');
+        }
+
+        uploadedUrls.push(data.url as string);
       }
-    } catch {
-      setError('An error occurred while uploading');
+
+      if (uploadedUrls.length > 0) {
+        onChange([...value, ...uploadedUrls]);
+      }
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'An error occurred while uploading';
+      setError(message);
     } finally {
       setUploading(false);
     }
@@ -82,6 +97,7 @@ export default function MultipleImageUpload({ value, onChange, label = 'Addition
         <input
           type="file"
           accept="image/*"
+          multiple
           onChange={handleFileChange}
           disabled={uploading}
           className="hidden"
