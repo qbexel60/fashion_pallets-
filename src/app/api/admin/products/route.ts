@@ -11,7 +11,7 @@ export async function GET() {
     await requireAdmin();
 
     const products = await prisma.product.findMany({
-      orderBy: { createdAt: 'desc' },
+      orderBy: [{ sortOrder: 'asc' }, { createdAt: 'desc' }],
     });
 
     return NextResponse.json({ success: true, data: products });
@@ -38,6 +38,7 @@ export async function POST(request: NextRequest) {
       type,
       deliveryTime,
       active,
+      sortOrder,
     } = body;
 
     if (!name || !description || !imglink || quantity === undefined || !price || !type || !deliveryTime) {
@@ -65,6 +66,7 @@ export async function POST(request: NextRequest) {
         type,
         deliveryTime,
         active: typeof active === 'boolean' ? active : true,
+        sortOrder: typeof sortOrder === 'number' ? sortOrder : parseInt(sortOrder) || 0,
       },
     });
 

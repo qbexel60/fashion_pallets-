@@ -32,9 +32,7 @@ export async function getProducts({ useCache = true }: { useCache?: boolean } = 
     // If not in cache or cache is invalid, fetch from MongoDB
     console.log('📦 Fetching products from database...');
     const products = await prisma.product.findMany({
-      orderBy: {
-        createdAt: 'desc',
-      },
+      orderBy: [{ sortOrder: 'asc' }, { createdAt: 'desc' }],
     });
 
     // Only store in Redis if caching is enabled
@@ -54,9 +52,7 @@ export async function getProducts({ useCache = true }: { useCache?: boolean } = 
     // Fallback to database if Redis fails
     try {
       const products = await prisma.product.findMany({
-        orderBy: {
-          createdAt: 'desc',
-        },
+        orderBy: [{ sortOrder: 'asc' }, { createdAt: 'desc' }],
       });
       return products;
     } catch (dbError) {

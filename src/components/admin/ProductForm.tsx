@@ -20,10 +20,25 @@ type Product = {
   type: string;
   deliveryTime: string;
   active: boolean;
+  sortOrder?: number;
 };
 
 type Props = {
   productId?: string;
+};
+
+type FormDataState = {
+  name: string;
+  description: string;
+  imglink: string;
+  moreImages: string[];
+  quantity: string;
+  price: string;
+  offerPrice: string;
+  type: string;
+  deliveryTime: string;
+  active: boolean;
+  sortOrder: string;
 };
 
 export default function ProductForm({ productId }: Props) {
@@ -31,7 +46,7 @@ export default function ProductForm({ productId }: Props) {
   const [loading, setLoading] = useState(!!productId);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState('');
-  const [formData, setFormData] = useState({
+  const [formData, setFormData] = useState<FormDataState>({
     name: '',
     description: '',
     imglink: '',
@@ -42,6 +57,7 @@ export default function ProductForm({ productId }: Props) {
     type: 'stock',
     deliveryTime: '',
     active: true,
+    sortOrder: '0',
   });
   const [variants, setVariants] = useState<Record<string, string[]>>({});
 
@@ -70,6 +86,7 @@ export default function ProductForm({ productId }: Props) {
           type: product.type,
           deliveryTime: product.deliveryTime,
           active: product.active,
+          sortOrder: String(product.sortOrder ?? 0),
         });
         
         // Ensure variants are in the correct format
@@ -107,6 +124,7 @@ export default function ProductForm({ productId }: Props) {
           price: parseFloat(formData.price),
           offerPrice: formData.offerPrice ? parseFloat(formData.offerPrice) : null,
           moreImages: formData.moreImages.length > 0 ? formData.moreImages : null,
+          sortOrder: parseInt(formData.sortOrder) || 0,
         }),
       });
 
@@ -190,8 +208,8 @@ export default function ProductForm({ productId }: Props) {
           />
         </div>
 
-        {/* Pricing & Quantity / Status */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+        {/* Pricing & Quantity / Status / Sort */}
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-4">
           <div>
             <label className="block text-sm font-medium text-gray-300 mb-2">Price *</label>
             <input
@@ -224,6 +242,17 @@ export default function ProductForm({ productId }: Props) {
               required
               className="w-full px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
             />
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium text-gray-300 mb-2">Sort Order</label>
+            <input
+              type="number"
+              value={formData.sortOrder}
+              onChange={(e) => setFormData({ ...formData, sortOrder: e.target.value })}
+              className="w-full px-4 py-2 bg-white/10 border border-white/20 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-purple-500"
+            />
+            <p className="mt-1 text-[11px] text-gray-400">Lower shows first (0 is default)</p>
           </div>
 
           <div className="flex items-center md:items-start gap-3 pt-2 md:pt-0">

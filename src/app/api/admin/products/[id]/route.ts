@@ -44,6 +44,7 @@ export async function PUT(request: NextRequest, { params }: { params: Promise<{ 
       type,
       deliveryTime,
       active,
+      sortOrder,
     } = body;
 
     // Ensure variants values are arrays
@@ -68,6 +69,12 @@ export async function PUT(request: NextRequest, { params }: { params: Promise<{ 
         type,
         deliveryTime,
         active: typeof active === 'boolean' ? active : undefined,
+        sortOrder:
+          sortOrder === null
+            ? 0
+            : typeof sortOrder === 'number'
+              ? sortOrder
+              : parseInt(sortOrder) || undefined,
       },
     });
 

@@ -16,6 +16,7 @@ type Product = {
   deliveryTime: string;
   createdAt: string;
   active?: boolean;
+  sortOrder?: number;
 };
 
 export default function ProductsTable() {
@@ -139,6 +140,7 @@ export default function ProductsTable() {
               <th className="px-4 lg:px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase">Image</th>
               <th className="px-4 lg:px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase">Name</th>
               <th className="px-4 lg:px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase">Type</th>
+              <th className="px-4 lg:px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase">Sort</th>
               <th className="px-4 lg:px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase">Price</th>
               <th className="px-4 lg:px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase">Quantity</th>
               <th className="px-4 lg:px-6 py-4 text-left text-xs font-medium text-gray-300 uppercase">Actions</th>
@@ -147,7 +149,7 @@ export default function ProductsTable() {
           <tbody className="divide-y divide-white/10">
             {filteredProducts.length === 0 ? (
               <tr>
-                <td colSpan={6} className="px-6 py-8 text-center text-gray-300">
+                <td colSpan={7} className="px-6 py-8 text-center text-gray-300">
                   No products found.{' '}
                   <Link href="/admin/products/new" className="text-purple-400 hover:underline">
                     Create one
@@ -176,6 +178,9 @@ export default function ProductsTable() {
                     >
                       {product.type}
                     </span>
+                  </td>
+                  <td className="px-4 lg:px-6 py-4 text-white">
+                    {typeof product.sortOrder === 'number' ? product.sortOrder : 0}
                   </td>
                   <td className="px-4 lg:px-6 py-4 text-white">
                     {product.offerPrice && product.offerPrice < product.price ? (
@@ -232,15 +237,20 @@ export default function ProductsTable() {
                 <div className="flex-1 min-w-0">
                   <h3 className="text-white font-medium mb-1 truncate">{product.name}</h3>
                   <p className="text-gray-400 text-xs line-clamp-2 mb-2">{product.description}</p>
-                  <span
-                    className={`inline-block px-2 py-1 rounded text-xs font-medium ${
-                      product.type.toLowerCase().includes('pre-order')
-                        ? 'bg-purple-500/20 text-purple-300'
-                        : 'bg-green-500/20 text-green-300'
-                    }`}
-                  >
-                    {product.type}
-                  </span>
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span
+                      className={`inline-block px-2 py-1 rounded text-xs font-medium ${
+                        product.type.toLowerCase().includes('pre-order')
+                          ? 'bg-purple-500/20 text-purple-300'
+                          : 'bg-green-500/20 text-green-300'
+                      }`}
+                    >
+                      {product.type}
+                    </span>
+                    <span className="inline-block px-2 py-1 rounded text-xs font-medium bg-white/10 text-gray-200">
+                      Sort: {typeof product.sortOrder === 'number' ? product.sortOrder : 0}
+                    </span>
+                  </div>
                 </div>
               </div>
               

@@ -32,6 +32,7 @@ model Product {
   type         String
   deliveryTime String
   active       Boolean  @default(true)
+  sortOrder    Int      @default(0)
   createdAt    DateTime @default(now())
   updatedAt    DateTime @updatedAt
 }

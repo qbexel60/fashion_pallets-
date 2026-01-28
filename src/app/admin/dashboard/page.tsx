@@ -49,7 +49,7 @@ export default async function AdminDashboardPage() {
         {/* Quick Actions */}
         <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
           <h2 className="text-2xl font-bold text-white mb-4">Quick Actions</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <Link
               href="/admin/products"
               className="bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold py-4 px-6 rounded-lg hover:from-purple-700 hover:to-pink-700 transition-all text-center"
@@ -61,6 +61,12 @@ export default async function AdminDashboardPage() {
               className="bg-gradient-to-r from-green-600 to-teal-600 text-white font-semibold py-4 px-6 rounded-lg hover:from-green-700 hover:to-teal-700 transition-all text-center"
             >
               Add New Product
+            </Link>
+            <Link
+              href="/admin/sorting"
+              className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white font-semibold py-4 px-6 rounded-lg hover:from-indigo-700 hover:to-blue-700 transition-all text-center"
+            >
+              Sort Products
             </Link>
           </div>
         </div>
