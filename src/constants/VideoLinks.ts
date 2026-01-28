@@ -7,7 +7,7 @@ type Video = {
 const videos: Video[] = [
   {
     id: '1',
-    url: '636354885494155',
+    url: '63694155',
   },
   {
     id: '2',
