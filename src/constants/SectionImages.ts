@@ -667,6 +667,114 @@ export const sectionImages: {
       name: "image80",
       url: "https://i.ibb.co.com/Nns5pNRM/471941142-581408081321413-311395801393515545-n.jpg",
     },
+        {
+      name: "image81",
+      url: "https://i.ibb.co.com/S44bR0wH/FB-IMG-1769635819341.jpg",
+    },
+    {
+      name: "image82",
+      url: "https://i.ibb.co.com/HD1HdfxK/FB-IMG-1769635794449.jpg",
+    },
+    {
+      name: "image83",
+      url: "https://i.ibb.co.com/8gDzvH0Z/FB-IMG-1769635786921.jpg",
+    },
+    {
+      name: "image84",
+      url: "https://i.ibb.co.com/9m9jGYSH/FB-IMG-1769635779106.jpg",
+    },
+    {
+      name: "image85",
+      url: "https://i.ibb.co.com/4Rx225TB/FB-IMG-1769635772086.jpg",
+    },
+    {
+      name: "image86",
+      url: "https://i.ibb.co.com/0pyGgKjT/FB-IMG-1769635762625.jpg",
+    },
+    {
+      name: "image87",
+      url: "https://i.ibb.co.com/0jPfxpTm/FB-IMG-1769635751331.jpg",
+    },
+    {
+      name: "image88",
+      url: "https://i.ibb.co.com/LztYrJqQ/FB-IMG-1769635740934.jpg",
+    },
+    {
+      name: "image89",
+      url: "https://i.ibb.co.com/nq8PsxLZ/FB-IMG-1769635711614.jpg",
+    },
+    {
+      name: "image90",
+      url: "https://i.ibb.co.com/xKcXftkT/FB-IMG-1769635667616.jpg",
+    },
+    {
+      name: "image91",
+      url: "https://i.ibb.co.com/JRc8BjqM/FB-IMG-1769635659564.jpg",
+    },
+    {
+      name: "image92",
+      url: "https://i.ibb.co.com/n83Lz33r/FB-IMG-1769635649333.jpg",
+    },
+    {
+      name: "image93",
+      url: "https://i.ibb.co.com/cXZ92yFS/FB-IMG-1769635637935.jpg",
+    },
+    {
+      name: "image94",
+      url: "https://i.ibb.co.com/fV79ByTm/FB-IMG-1769635631448.jpg",
+    },
+    {
+      name: "image95",
+      url: "https://i.ibb.co.com/mrs8hrNV/FB-IMG-1769635624472.jpg",
+    },
+    {
+      name: "image96",
+      url: "https://i.ibb.co.com/d4bzcsFP/FB-IMG-1769635619267.jpg",
+    },
+    {
+      name: "image97",
+      url: "https://i.ibb.co.com/V04gSPbN/FB-IMG-1769635610742.jpg",
+    },
+    {
+      name: "image98",
+      url: "https://i.ibb.co.com/HyD1hG8/FB-IMG-1769635605512.jpg",
+    },
+    {
+      name: "image99",
+      url: "https://i.ibb.co.com/ns6FJmYZ/FB-IMG-1769635598568.jpg",
+    },
+    {
+      name: "image100",
+      url: "https://i.ibb.co.com/zHXCBd4g/FB-IMG-1769635593182.jpg",
+    },
+    {
+      name: "image101",
+      url: "https://i.ibb.co.com/jkn58YcC/FB-IMG-1769635583978.jpg",
+    },
+    {
+      name: "image102",
+      url: "https://i.ibb.co.com/SD5vQ9Qn/FB-IMG-1769635567433.jpg",
+    },
+    {
+      name: "image103",
+      url: "https://i.ibb.co.com/8L19Tkgm/FB-IMG-1769635557246.jpg",
+    },
+    {
+      name: "image104",
+      url: "https://i.ibb.co.com/TxDBx6pj/FB-IMG-1769635545356.jpg",
+    },
+    {
+      name: "image105",
+      url: "https://i.ibb.co.com/fzQ4vhvq/FB-IMG-1769635528308.jpg",
+    },
+    {
+      name: "image106",
+      url: "https://i.ibb.co.com/JRD0k9mW/FB-IMG-1769635519934.jpg",
+    },
+    {
+      name: "image107",
+      url: "https://i.ibb.co.com/4w4fxx6Z/FB-IMG-1769635512657.jpg",
+    },
   ],
 
   reviews:[
